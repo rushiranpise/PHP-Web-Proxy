@@ -9,7 +9,6 @@ require(__DIR__ . "/../config.php");
     <meta charset="utf-8">
     <meta name="description" content="<?php echo $config["website-description"]; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.14/icons/favicon-16x16.png"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 </head>
 <body>
@@ -40,7 +39,7 @@ require(__DIR__ . "/../config.php");
                 </div>
                 <p class="lead">
                 <form class="form-group" action="index.php" method="post">
-                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="https://" value="http://"
+                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="https://" value="https://"
                            autofocus required/>
                     <br>
                     <input class="btn btn-primary btn-lg" type="submit" value="<?php echo $lang["go"]; ?>"/>
