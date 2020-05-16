@@ -40,7 +40,7 @@ require(__DIR__ . "/../config.php");
                 </div>
                 <p class="lead">
                 <form class="form-group" action="index.php" method="post">
-                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="http://" value="http://"
+                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="https://" value="http://"
                            autofocus required/>
                     <br>
                     <input class="btn btn-primary btn-lg" type="submit" value="<?php echo $lang["go"]; ?>"/>
